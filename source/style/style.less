@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Jura:400,300&subset=latin,cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: 'Jura', sans-serif;
+  background-color: #f0f2f5;
+}
+
+s {
+  text-decoration: none;
+}
+
+
+.container {
+  width: 960px;
+  background-color: #ffffff;
+  //padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #e5e8ec;
+  margin: 50px auto;
+}
+
+
+
+.title_nav {
+  background-color: #f7f8fa;
+  box-sizing: border-box;
+  padding: 10px;
+  //margin: -5px;
+  position: relative;
+  .buttons {
+    float: right;
+    display: inline-flex;
+    .text_box_search {
+      margin-right: 5px;
+    }
+  }
+
+}
+
+.btn_add_nation {
+  position: absolute;
+  right: 10px;
+  bottom: 1px;
+}
+
+.nav_nation {
+  position: relative;
+  border: 1px solid #e5e8ec;
+  margin: 10px 5px;
+  padding: 5px;
+  img.logo {
+    vertical-align: middle;
+    height: 160px;
+    width: 160px;
+    float: left;
+  }
+  .name_nation {
+    // float: left;
+    padding-left: 10px;
+    font-size: 21px;
+  }
+  .buttons {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+  }
+  .a_info {
+    font-weight: bold;
+    &:after {
+      background-image: url("../img/w128h1281338911352help.png");
+      background-size: 15px 15px;
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      content: "";
+      margin-left: 5px;
+    }
+  }
+  .valid_logo {
+    font-size: 12px;
+    color: red;
+  }
+
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+ul.info_nation {
+  float: left;
+  li {
+    padding: 1px;
+    display: block;
+  }
+}
+
+/* Buttons */
+
+.button_flat {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #e5e8ec;
+  padding: 10px 10px;
+}
+
+.button_flat:hover {
+  background-color: #e5e8ec;
+  text-decoration: none;
+}
+
+.button_flat:active {
+  color: gray;
+  text-decoration: none;
+}
+
+.button_flat:focus {
+  text-decoration: none;
+  border: 1px solid #e5e8ec;
+}
+
+/* Buttons */
+
+/* Modal Delete */
+.modal_delete {
+  width: 400px;
+  margin: auto;
+}
+
+/* Modal Delete */
+
+/* TextBox */
+//input[type="text"] {
+//  padding: 5px;
+//  border: 1px solid #e5e8ec;
+//  font-size: 14px;
+//}
+.textbox_value {
+  padding: 5px;
+  border: 1px solid #e5e8ec;
+  font-size: 14px;
+  outline: none;
+}
+
+.text_width100 {
+  width: 100%;
+}
+
+.text_box_search {
+  border: 1px solid #e5e8ec;
+  padding: 10px;
+  outline: none;
+  width: 170px;
+  padding: 10px 10px;
+}
+
+/* TextBox */
+
+/* Table */
+td.text_block {
+  width: 100%;
+}
+
+/* Table */
