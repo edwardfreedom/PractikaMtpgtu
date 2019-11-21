@@ -63,3 +63,4 @@ Consider the [keybase command line program](https://keybase.io/download).
 
 bash
 # look me up
+keybase id edward_freedom
